@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active: prod
+  application:
+    name: eureka-server
+eureka:
+  instance:
+    instance-id: ${spring.application.name}:${server.port}
+    preferIpAAddress: true

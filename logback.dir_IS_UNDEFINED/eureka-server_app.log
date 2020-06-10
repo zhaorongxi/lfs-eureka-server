@@ -1,0 +1,11 @@
+Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$2ddb49dc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+The following profiles are active: dev
+BeanFactory id=86440aec-ecc5-3b20-9950-c9cf25cf1ed5
+Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$2ddb49dc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@76b47204
+Initializing ExecutorService 'applicationTaskExecutor'
+Shutting down ExecutorService 'applicationTaskExecutor'
+
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
