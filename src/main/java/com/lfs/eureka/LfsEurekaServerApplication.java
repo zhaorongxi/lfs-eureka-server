@@ -1,4 +1,4 @@
-package com.bc.eureka;
+package com.lfs.eureka;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,10 +6,10 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 @EnableEurekaServer
 @SpringBootApplication
-public class BcEurekaServerApplication {
+public class LfsEurekaServerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BcEurekaServerApplication.class, args);
+		SpringApplication.run(LfsEurekaServerApplication.class, args);
 	}
 
 }

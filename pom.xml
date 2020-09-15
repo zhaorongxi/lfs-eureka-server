@@ -8,10 +8,10 @@
 		<version>2.0.2.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.bc.eureka</groupId>
-	<artifactId>bc-eureka-server</artifactId>
+	<groupId>com.lfs.eureka</groupId>
+	<artifactId>lfs-eureka-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>bc-eureka-server</name>
+	<name>lfs-eureka-server</name>
 	<description>eureka服务</description>
 
 	<properties>
