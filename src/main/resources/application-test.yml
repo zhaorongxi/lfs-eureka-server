@@ -27,7 +27,7 @@ eureka:
     registry-fetch-interval-seconds: 5
     # 设置eureka服务器所在的地址，查询服务和注册服务都需要依赖这个地址
     service-url:
-      defaultZone: http://120.77.145.165:2019/eureka/
+      defaultZone: http://192.168.64.129:2019/eureka/
   server:
     # renewal-percent-threshold: 0.1
     # 关闭自我保护模式

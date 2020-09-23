@@ -1,5 +1,5 @@
 2020-04-04 17:07:37.303 |-INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] -| Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$2ddb49dc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-04-04 17:07:38.317 |-INFO  [main] com.bc.eureka.BcEurekaServerApplicationTests [655] -| The following profiles are active: dev
+2020-04-04 17:07:38.317 |-INFO  [main] com.lfs.eureka.BcEurekaServerApplicationTests [655] -| The following profiles are active: dev
 2020-04-04 17:07:39.339 |-WARN  [main] org.springframework.boot.actuate.endpoint.EndpointId [155] -| Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
 2020-04-04 17:07:39.812 |-INFO  [main] org.springframework.cloud.context.scope.GenericScope [294] -| BeanFactory id=86440aec-ecc5-3b20-9950-c9cf25cf1ed5
 2020-04-04 17:07:40.065 |-INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] -| Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$2ddb49dc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
@@ -41,7 +41,7 @@ Action:
 
 Correct the classpath of your application so that it contains a single, compatible version of org.springframework.boot.actuate.health.CompositeHealthIndicator
 
-2020-04-04 17:07:43.326 |-ERROR [main] org.springframework.test.context.TestContextManager [248] -| Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@1a5a4e19] to prepare test instance [com.bc.eureka.BcEurekaServerApplicationTests@7e62cfa3]
+2020-04-04 17:07:43.326 |-ERROR [main] org.springframework.test.context.TestContextManager [248] -| Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@1a5a4e19] to prepare test instance [com.lfs.eureka.BcEurekaServerApplicationTests@7e62cfa3]
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132)
 	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)
